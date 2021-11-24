@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "chowbuddy",
+    "name": "Chow Buddy",
     "slug": "chowbuddy",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,12 +21,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/android-chrome-192x192.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon-32x32.png"
     }
   }
 }
