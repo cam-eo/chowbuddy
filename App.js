@@ -42,8 +42,8 @@ export default function App() {
       <View style={styles.container}>
           <Header
             containerStyle={styles.header}
-            leftComponent={{ icon: 'menu', color: '#fff', iconStyle: { color: '#fff' } }}
-            centerComponent={{ text: 'Chow Buddy', style: { color: '#fff' } }}
+            leftComponent={{ icon: 'menu', color: '#D3E7EE', iconStyle: { color: '#D3E7EE' } }}
+            centerComponent={<View style={styles.headerLogoContainer} ><Image source={require('./images/ChowBuddyLogo_skyBlue_NoSmallZa.svg')} style={styles.headerLogo} />how Buddy</View>}
           />
           {demoOpenChowsAvailable.map((demoOpenChowAvailable)=> 
           <ChowCard 
@@ -70,6 +70,20 @@ const styles = StyleSheet.create({
     backgroundColor: '#C6A477',
     borderColor: '#7097A8'
   },
+  headerLogoContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    color: '#D3E7EE',
+    height: '100%', 
+    fontFamily: 'Verdana, Arial, sans-serif',
+    whiteSpace: 'nowrap',
+    flexWrap: 'nowrap',
+  },
+  headerLogo: {
+    aspectRatio: 1,
+    height: '100%',
+  },
   cardImage: {
     height: '100%',
     width: '40%',
@@ -93,6 +107,7 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     overflow: 'hidden',
     marginBottom: 10,
+    maxWidth: 460,
   },
   chowCardLeft: {
     display: 'flex',
