@@ -1,4 +1,4 @@
-# CHOW BUDDY
+# Welcome to the CHOW BUDDYS repo
 
 ## Setup this repo
 
