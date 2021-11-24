@@ -9,8 +9,8 @@
 
 ## Colour Pallet
 
-Brown: `#C6A477`
-Goldy Brown: `#ECD59F`, `rgb(236, 213, 159)`
-Sky Blue: `#D3E7EE`
-Blue: `#ABD1DC`
-Dark Blue: `#7097A8`
+- Brown: `#C6A477`
+- Goldy Brown: `#ECD59F`, `rgb(236, 213, 159)`
+- Sky Blue: `#D3E7EE`
+- Blue: `#ABD1DC`
+- Dark Blue: `#7097A8`
